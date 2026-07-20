@@ -3,7 +3,7 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./CG-TrabalhoFinal/CG-TrabalhoFinal
+      context: ./ComputacaoGrafica-TrabalhoFinal-BACKEND/CG-TrabalhoFinal
     container_name: cg_backend
     ports:
       - "8080:8080"
